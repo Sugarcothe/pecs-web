@@ -4,7 +4,7 @@ import './Navbar.scss'
 const Navbar = () => {
     return (
         <div>
-        This is Home
+        This is Navbar
         </div>
     )
 }
