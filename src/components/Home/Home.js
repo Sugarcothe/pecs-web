@@ -4,15 +4,18 @@ import './Home.scss'
 const Home = () => {
     return (
         <div className='home' id='home'>
-            <h1>PECS CODING SCHOOL</h1>
            <div className='sections'>
                 <div className='left-column'> 
-                    <p>"Lorem ipsum dolor sit 
-                        amet, consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua. Ut enim ad minim veniam, quis 
-                        nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.</p>
+                    <h1>PECS</h1>
+                    <h3>Live Online Coding classes for your kids</h3>
+                    <p>
+                    We make coding fun for kids aged 4-18 years. They learn to build apps, websites and other projects with a personal tutor and our standard curriculum.
+                    </p>
+                
+                    <div className='buttons'>
+                        <button>Register</button>
+                        <button>Join</button>
+                    </div>
                 </div>
 
                 <div className='right-column'> 
