@@ -8,9 +8,18 @@ const Navbar = () => {
             <nav>
                 <div className='logo'>PECS</div>
                 <ul className='nav-links'>
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Virtual Classes</a></li>
+                    <li>
+                        <a>Home</a>
+                    </li>
+                    <li>
+                        <a>About</a>
+                    </li>
+                    <li>
+                        <a>Virtual Classes</a>
+                    </li>
+                    <li>
+                        <a>Contact</a>
+                    </li>
                 </ul>
             </nav>
         </div>

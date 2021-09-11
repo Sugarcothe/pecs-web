@@ -6,7 +6,7 @@ const Home = () => {
         <div className='home' id='home'>
            <div className='sections'>
                 <div className='left-column'> 
-                    <h1>PECS</h1>
+                    <h1>CHILDREN CODING SCHOOL</h1>
                     <h3>Onsite/Online Coding classes for your kids</h3>
                     <p>
                     We make coding fun for kids aged 4-18 years. They learn to build apps, websites and other projects with a personal tutor and our standard curriculum.

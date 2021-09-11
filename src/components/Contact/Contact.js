@@ -1,5 +1,5 @@
 import React from 'react'
-import './Championship.scss'
+import './Contact.scss'
 
 const Championship = () => {
     return (
