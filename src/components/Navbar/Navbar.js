@@ -15,13 +15,23 @@ const Navbar = () => {
                         <a>About</a>
                     </li>
                     <li>
-                        <a>Virtual Classes</a>
+                        <a>Classes</a>
                     </li>
                     <li>
                         <a>Contact</a>
                     </li>
                 </ul>
-            </nav>
+                <i 
+                    style={{color:'rgb(253, 245, 124)', fontSize:20}} 
+                    
+                    className="burger fas fa-circle">
+                </i>
+                <i 
+                    style={{color:'rgb(253, 245, 124)', fontSize:20}} 
+                    
+                    className="burger far fa-circle">
+                </i>
+            </nav>    
         </div>
     )
 }
