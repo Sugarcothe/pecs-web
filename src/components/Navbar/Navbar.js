@@ -1,13 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Navbar.scss'
 
 
 const Navbar = () => {
+    const [open, setOpen] = useState(false)
     return (
         <div>
             <nav>
                 <div className='logo'>PECS</div>
-                <ul className='nav-links'>
+                <ul className='nav-links'
+                   style={{transform: open ? "translateX(0px)" : "translateX(-500px)"}} 
+                >
                     <li>
                         <a>Home</a>
                     </li>
@@ -22,14 +25,9 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <i 
+                    onClick={() => setOpen(!open)}
                     style={{color:'rgb(253, 245, 124)', fontSize:20}} 
-                    
                     className="burger fas fa-circle">
-                </i>
-                <i 
-                    style={{color:'rgb(253, 245, 124)', fontSize:20}} 
-                    
-                    className="burger far fa-circle">
                 </i>
             </nav>    
         </div>

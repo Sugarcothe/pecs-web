@@ -23,6 +23,7 @@ nav {
             justify-content: space-around;
             width: 30%;
             padding: 10px;
+            transition: 0.5s ease-in-out;
 
             @include mobile {
                 position: absolute;
@@ -31,6 +32,7 @@ nav {
                 left: 0;
                 height: 100vh;
                 background-color: rgb(28, 25, 1);
+                transform: translateX(-400px)
             }
 
             li {
@@ -40,6 +42,8 @@ nav {
                     padding: 10px;
                     margin-bottom: 1rem;
                     width: 50%;
+                    border-bottom: 1px solid rgb(253, 245, 124);
+                    
                 }
             
                 a {
@@ -74,6 +78,7 @@ nav {
 
         .burger {
             display: none;
+            cursor: pointer;
 
             @include mobile {
                 display: block;
