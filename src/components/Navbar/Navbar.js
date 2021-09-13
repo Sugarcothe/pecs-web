@@ -1,27 +1,36 @@
 import React, {useState} from 'react'
 import './Navbar.scss'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     return (
-        <div>
+        <Switch>
             <nav>
                 <div className='logo'>PECS</div>
                 <ul className='nav-links'
-                   style={{transform: open ? "translateX(0px)" : "translateX(-500px)"}} 
+                   style={{transform: open ? "translateX(0px)" : ""}} 
                 >
                     <li>
-                        <a>Home</a>
+                        <Link to='/'>Home</Link>
                     </li>
                     <li>
-                        <a>About</a>
+                        <Link to='/About'>About</Link>
                     </li>
                     <li>
-                        <a>Classes</a>
+                        <Link to='/Virtual'>Classes</Link>
                     </li>
                     <li>
-                        <a>Contact</a>
+                        <Link to='/Contact'>Contact</Link>
+                    </li>
+                    <li>
+                        <Link to='/Signin'>Login</Link>
                     </li>
                 </ul>
                 <i 
@@ -30,7 +39,7 @@ const Navbar = () => {
                     className="burger fas fa-circle">
                 </i>
             </nav>    
-        </div>
+        </Switch>
     )
 }
 

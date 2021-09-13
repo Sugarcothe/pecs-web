@@ -1,22 +1,23 @@
+@import '../../global.scss';
 
 .home {
     color: rgb(28, 25, 1);
     font-family: 'Urbanist', sans-serif;
-    background-color: rgb(253, 245, 124);
+    background-color: $light-color;
     height: 100vh;
     h1 {
         margin-top: 4rem;
         font-size: 3rem;
         font-weight: 900;
-        color: rgb(28, 25, 1);
+        color: $dark-color;
     }
     h3 {
         font-size: 1rem;
-        font-weight: 700;
-        color: rgb(28, 25, 1);
+        font-weight: 900;
+        color: $light-color;
         padding: 1rem;
-        border-radius: 10px;
-        background-color: white;
+        border-radius: 5px;
+        background-color: $main-color;
     }
     p {
         font-size: 1.50rem;
@@ -35,8 +36,8 @@
             margin-top: 2rem;
 
             button {
-                color: white;
-                background-color: rgb(28, 25, 1);
+                color: $light-color;
+                background-color: $main-color;
                 margin: 1rem;
                 font-size: 1rem;
                 padding: 0.7rem;
@@ -48,6 +49,7 @@
                 border-radius: 3px;
                 transition: 1s;
                 transform: scale(1.2);
+                font-weight: 700;
             }
             
         }
@@ -63,5 +65,101 @@
         }
 
 
+    }
+
+    // SECOND SECTION
+
+
+    .sections1 {
+        display: flex;
+        margin: 4rem;
+
+        .rows {
+            display: flex;
+            flex-direction: row;
+
+            .row1 {
+                max-width: 200px;
+                h1 {
+                    font-size: 2rem;
+                    color: $dark-color;
+                }
+            }
+
+            .row2 {
+                max-width: 200px;
+                margin: 2rem;
+                box-shadow: 0 4px 8px 0 rgba(3, 126, 134, 0.4);
+                padding: 2rem;
+                border-radius: 1rem;
+
+                h2 {
+                    font-size: 2rem;
+                    color: $main-color;
+                    font-size: 3rem;
+                    font-weight: 900;
+                }
+
+                h4 {
+                    font-size: 1.7rem;
+                }
+            }
+
+            .row2:hover {
+                box-shadow: 0 4px 16px 0 rgba(3, 126, 134, 0.9);
+            }
+
+            .row3 {
+                max-width: 200px;
+                margin: 2rem;
+                box-shadow: 0 4px 8px 0 rgba(3, 126, 134, 0.4);
+                padding: 2rem;
+                border-radius: 1rem;
+
+                h2 {
+                    font-size: 2rem;
+                    color: $main-color;
+                    font-size: 3rem;
+                    font-weight: 900;
+                }
+
+                h4 {
+                    font-size: 1.7rem;
+                }
+            }
+
+            .row3:hover {
+                box-shadow: 0 4px 16px 0 rgba(3, 126, 134, 0.9);
+            }
+
+            .row4 {
+                max-width: 200px;
+                margin: 2rem;
+                box-shadow: 0 4px 8px 0 rgba(3, 126, 134, 0.4);
+                padding: 2rem;
+                border-radius: 1rem;
+
+                h2 {
+                    font-size: 2rem;
+                    color: $main-color;
+                    font-size: 3rem;
+                    font-weight: 900;
+                }
+
+                h4 {
+                    font-size: 1.7rem;
+                }
+            }
+
+            .row4:hover {
+                box-shadow: 0 4px 16px 0 rgba(3, 126, 134, 0.9);
+            }
+
+
+
+            
+
+            
+        }
     }
 }

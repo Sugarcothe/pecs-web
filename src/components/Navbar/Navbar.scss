@@ -7,7 +7,7 @@ nav {
     min-height: 10vh;
     padding: 15px;
     align-content: center;
-    background-color: rgb(28, 25, 1);
+    background-color: $main-color;
 
 
     .logo {
@@ -31,7 +31,7 @@ nav {
                 top: 0;
                 left: 0;
                 height: 100vh;
-                background-color: rgb(28, 25, 1);
+                background-color: $main-color;
                 transform: translateX(-400px)
             }
 
@@ -42,18 +42,18 @@ nav {
                     padding: 10px;
                     margin-bottom: 1rem;
                     width: 50%;
-                    border-bottom: 1px solid rgb(253, 245, 124);
+                    border-bottom: 1px solid $light-color;
                     
                 }
             
                 a {
                     text-decoration: none;
                     font-size: 16px;
-                    color: white;
+                    color: $light-color;
 
                     @include mobile {
                         font-size: 15px;
-                        color: rgb(253, 245, 124);
+                        color: $light-color;
                         padding: 30px;
                         margin-bottom: 1rem;
                         width: 50%;
@@ -61,8 +61,8 @@ nav {
                     }
                 }
                 a:hover {
-                    color: rgb(28, 25, 1);
-                    background-color: rgb(253, 245, 124);
+                    color: $main-color;
+                    background-color: $light-color;
                     padding: 10px;
                     font-weight: 700;
                     border-radius: 10px;
