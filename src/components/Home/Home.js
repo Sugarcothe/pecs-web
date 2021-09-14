@@ -4,7 +4,7 @@ import './Home.scss'
 const Home = () => {
     return (
         <div className='home' id='home'>
-           <div className='sections'>
+            <div className='sections'>
                 <div className='left-column'> 
                     <h1>CHILDREN CODING SCHOOL</h1>
                     <h3>Onsite/Online Coding classes for your kids</h3>
@@ -23,7 +23,7 @@ const Home = () => {
                 </div>
            </div>
         
-        <div className='sections1'>
+            <div className='sections1'>
             <div className='rows'>
                 <div className='row1'>
                     <h1>OUR RECORDS SPEAK FOR US</h1>
@@ -46,6 +46,35 @@ const Home = () => {
                 </div>
             </div>
         </div>
+            
+            <div className='section2'>
+                <div className='house'>
+                    <div className='head1'>
+                        <h2>Popular courses</h2>
+                        <button className='btn1'>
+                            Show All
+                        </button>
+                    </div>
+                    <div className='body1'>
+                        <div className='row1'>
+                            <i class="fas fa-robot"></i>
+                            <h4>Robotics</h4>
+                        </div>
+                        <div className='row2'>
+                            <i class="fas fa-robot"></i>
+                            <h4>Robotics</h4>
+                        </div>
+                        <div className='row3'>
+                            <i class="fas fa-robot"></i>
+                            <h4>Robotics</h4>
+                        </div>
+                        <div className='row4'>
+                            <i class="fas fa-robot"></i>
+                            <h4>Robotics</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
        </div>
     )
 }

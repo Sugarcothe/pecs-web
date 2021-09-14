@@ -107,6 +107,7 @@
 
             .row2:hover {
                 box-shadow: 0 4px 16px 0 rgba(3, 126, 134, 0.9);
+                transition: 0.4s ease-in-out;
             }
 
             .row3 {
@@ -130,6 +131,7 @@
 
             .row3:hover {
                 box-shadow: 0 4px 16px 0 rgba(3, 126, 134, 0.9);
+                transition: 0.4s ease-in-out;
             }
 
             .row4 {
@@ -153,13 +155,53 @@
 
             .row4:hover {
                 box-shadow: 0 4px 16px 0 rgba(3, 126, 134, 0.9);
+                transition: 0.4s ease-in-out;
+            }
+            
+        }
+
+    }
+
+
+    .section2 {
+        margin: 4rem;
+
+        .house {
+            background-color: $main-color;
+            border-radius: 3rem;
+            justify-content: center;
+            align-content: center;
+    
+            .head1 {
+                display: flex;
+                flex-direction: row;
+                padding: 4rem;
+                
+            }
+            .body1 {
+                padding: 4rem;
+
+                .row1 {
+                    background-color: $main-light-color;
+                    padding: 2rem;
+                    border-radius: 33px;
+                    min-height: 239px;
+                    max-width: 188px;
+
+                    i {
+                        color: $main-color;
+                        font-size: 2rem;
+                        margin-bottom: 20px;
+                        
+                    }
+
+                    h4 {
+                        color: $main-color;
+                    }
+                }
+
             }
 
-
-
-            
-
-            
         }
     }
 }
