@@ -1,0 +1,51 @@
+@import '../../../global.scss';
+
+.testimonial {
+    background-color: #fff;
+    margin-top: 5rem;
+
+    .rows {
+        display: flex;
+        flex-direction: row;
+        padding: 4rem;
+        margin-top: 5rem;
+
+        .boder {
+            background-color: rgb(13, 229, 245);
+            min-width: 350px;
+            min-height: 350px;
+            border-radius: 50%;
+    
+            .imago {
+                position: absolute;
+                
+                bottom: 2px;
+
+                img{
+                    min-width: 550px;
+                    position: relative;
+                    top: 55rem; 
+                    margin-right: 5rem;
+
+                    border-radius: 50%;
+                }
+        }
+       
+        }
+
+        .test {
+            max-width: 700px;
+            margin-left: 150px;
+            margin-right: 4rem;
+
+            h3 {
+                font-size: 2rem;
+            }
+
+            h4 {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
