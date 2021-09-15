@@ -6,7 +6,7 @@ const Home = () => {
         <div className='home' id='home'>
             <div className='sections'>
                 <div className='left-column'> 
-                    <h1>CHILDREN CODING SCHOOL</h1>
+                    <h1>Welcome to Kids Code Camp</h1>
                     <h3>Onsite/Online Coding classes for your kids</h3>
                     <p>
                     We make coding fun for kids aged 4-18 years. They learn to build apps, websites and other projects with a personal tutor and our standard curriculum.
@@ -19,7 +19,7 @@ const Home = () => {
                 </div>
 
                 <div className='right-column'> 
-                    <img src='assets/children.jpg' alt=''/>
+                    <img src='assets/visual.png' alt='home img'/>
                 </div>
            </div>
         
@@ -46,35 +46,6 @@ const Home = () => {
                 </div>
             </div>
         </div>
-            
-            <div className='section2'>
-                <div className='house'>
-                    <div className='head1'>
-                        <h2>Popular courses</h2>
-                        <button className='btn1'>
-                            Show All
-                        </button>
-                    </div>
-                    <div className='body1'>
-                        <div className='row1'>
-                            <i class="fas fa-robot"></i>
-                            <h4>Robotics</h4>
-                        </div>
-                        <div className='row2'>
-                            <i class="fas fa-robot"></i>
-                            <h4>Robotics</h4>
-                        </div>
-                        <div className='row3'>
-                            <i class="fas fa-robot"></i>
-                            <h4>Robotics</h4>
-                        </div>
-                        <div className='row4'>
-                            <i class="fas fa-robot"></i>
-                            <h4>Robotics</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
        </div>
     )
 }

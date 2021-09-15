@@ -1,9 +1,7 @@
 import React, {useState} from 'react'
 import './Navbar.scss'
 import {
-    BrowserRouter as Router,
     Switch,
-    Route,
     Link
   } from "react-router-dom";
 
@@ -13,7 +11,10 @@ const Navbar = () => {
     return (
         <Switch>
             <nav>
-                <div className='logo'>PECS</div>
+                <div className='logo'>
+                   kidsCodeCamp
+                   <img src='assets/kcc.jpg' alt='logo'/>
+                </div>
                 <ul className='nav-links'
                    style={{transform: open ? "translateX(0px)" : ""}} 
                 >
@@ -24,7 +25,7 @@ const Navbar = () => {
                         <Link to='/About'>About</Link>
                     </li>
                     <li>
-                        <Link to='/Virtual'>Classes</Link>
+                        <Link to='/Classes'>Classes</Link>
                     </li>
                     <li>
                         <Link to='/Contact'>Contact</Link>
