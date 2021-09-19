@@ -13,26 +13,17 @@ const Navbar = () => {
             <nav>
                 <div className='logo'>
                    <img  
-                   src='assets/nhlogo.png' alt='logo'
+                   src='assets/nh-logo.png' alt='logo'
                    />
                 </div>
                 <ul className='nav-links'
                    style={{transform: open ? "translateX(0px)" : ""}} 
                 >
                     <li>
-                        <Link to='/'>Home</Link>
+                        <Link to='/Classes'>Join Class</Link>
                     </li>
                     <li>
-                        <Link to='/About'>About</Link>
-                    </li>
-                    <li>
-                        <Link to='/Classes'>Classes</Link>
-                    </li>
-                    <li>
-                        <Link to='/Contact'>Contact</Link>
-                    </li>
-                    <li>
-                        <Link to='/Signin'>Login</Link>
+                        <Link to='/Signin'>Login/Signin</Link>
                     </li>
                 </ul>
                 <i 

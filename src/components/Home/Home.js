@@ -20,7 +20,10 @@ const Home = () => {
                 </div>
 
                 <div className='right-column'> 
-                    <img src='assets/visual.png' alt='home img'/>
+                    <img 
+                        src='assets/home1.gif' 
+                        alt='home img'
+                    />
                 </div>
            </div>
         
