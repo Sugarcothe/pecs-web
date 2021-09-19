@@ -5,31 +5,31 @@
     font-family: 'Urbanist', sans-serif;
     background-color: $light-color;
     height: 100vh;
-    h1 {
-        // margin-top: 4rem;
-        font-size: 3rem;
-        font-weight: 900;
-        color: $dark-color;
-    }
-    h3 {
-        font-size: 1rem;
-        font-weight: 900;
-        color: $light-color;
-        padding: 1rem;
-        border-radius: 5px;
-        background-color: $main-color;
-    }
-    p {
-        font-size: 1.50rem;
-        margin-top: 1rem;
-    }
+        h1 {
+            // margin-top: 4rem;
+            font-size: 3rem;
+            font-weight: 900;
+            color: $dark-color;
+        }
+        h3 {
+            font-size: 1rem;
+            font-weight: 900;
+            color: $light-color;
+            border-radius: 5px;
+            background-color: $main-color;
+        }
+        p {
+            font-size: 1.50rem;
+            margin-top: 1rem;
+        }
+    
     .sections {
         display: flex;
         margin-left: 5rem;
 
         .left-column {
             max-width: 550px;
-            margin-top: 3rem;
+            margin-top: 2rem;
         }
         .buttons {
             display: flex;
@@ -54,11 +54,11 @@
             }
             
         }
+
+
         .right-column {
             display: flex;
             flex-direction: row;
-            margin-top: 4rem;
-            margin-left: 5rem;
 
             img {
                 border-radius: 1.5rem;
