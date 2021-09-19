@@ -6,7 +6,7 @@ nav {
     font-family: 'Urbanist', sans-serif;
     justify-content: space-around;
     align-content: center;
-    background-color: $main-color;
+    background-color: $light-color;
 
 
     .logo {
@@ -16,12 +16,11 @@ nav {
         margin: 0;
         font-family: 'Roboto Mono', monospace;
         padding: 5px;
-        color: white;
+        color: $main-color;
         font-size: 2rem;
 
         img {
-            max-width: 40px;
-            max-height: 30px;
+            max-width: 80px;
             margin-top: 10px;
         }
     }
@@ -57,12 +56,12 @@ nav {
                 a {
                     text-decoration: none;
                     font-size: 16px;
-                    color: $light-color;
+                    color: $main-color;
                     font-weight: 500;
 
                     @include mobile {
                         font-size: 15px;
-                        color: $light-color;
+                        color: $main-color;
                         padding: 30px;
                         margin-bottom: 1rem;
                         width: 50%;

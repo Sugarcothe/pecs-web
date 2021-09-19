@@ -4,12 +4,11 @@ import './HomeTestimonial.scss';
 const HomeTestimonial = () => {
     return (
         <div className='testimonial'>
+            <div className='boder'></div>
             <div className='rows'>
-                <div className='boder'>
                     <div className='imago'>
                         <img src='assets/kidder.png' alt='testimonial'/>
                     </div>
-                </div>
                 <div className='test'>
                     <h3>Valentine</h3>
                     <h4>Age: 5</h4>

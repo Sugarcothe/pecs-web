@@ -12,8 +12,9 @@ const Navbar = () => {
         <Switch>
             <nav>
                 <div className='logo'>
-                   kidsCodeCamp
-                   <img src='assets/kcc.jpg' alt='logo'/>
+                   <img  
+                   src='assets/nhlogo.png' alt='logo'
+                   />
                 </div>
                 <ul className='nav-links'
                    style={{transform: open ? "translateX(0px)" : ""}} 
