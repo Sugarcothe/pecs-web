@@ -33,14 +33,15 @@
 
         .right-column {
             
+            
             img {
-                min-width: 200px;
+                max-width: 500px;
                 margin-left: 5rem;
             
             }
         }
 
-        
+
         .buttons {
             display: flex;
             flex-direction: row;
