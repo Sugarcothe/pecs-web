@@ -55,123 +55,18 @@
             
         }
 
-
         .right-column {
-            display: flex;
-            flex-direction: row;
 
             img {
-                border-radius: 1.5rem;
-                min-width: 400px;
+                // border-radius: 1.5rem;
+                min-width: 200px;
                 margin-left: 5rem;
             }
         }
-
     }
+    
 
     // SECOND SECTION
-
-
-    .sections1 {
-        display: flex;
-        margin-top: 4rem;
-        padding: 4rem;
-        background-color: $main-color;
-        
-
-        .rows {
-            display: flex;
-            flex-direction: row;
-
-            .row1 {
-                max-width: 200px;
-                h1 {
-                    font-size: 2rem;
-                    color: $light-color;
-                }
-            }
-
-            .row2 {
-                max-width: 200px;
-                margin: 2rem;
-                box-shadow: 0 4px 8px 0 rgba(13, 229, 245, 0.4);
-                padding: 2rem;
-                border-radius: 1rem;
-
-                h2 {
-                    font-size: 2rem;
-                    color: $light-color;
-                    font-size: 3rem;
-                    font-weight: 900;
-                }
-
-                h4 {
-                    font-size: 1.7rem;
-                    color: rgb(42,155,212);
-                }
-            }
-
-            .row2:hover {
-                box-shadow: 0 4px 16px 0 rgba(189, 238, 241, 0.9);
-                transform: scale(1.1);
-                transition: 0.7s ease-in-out;
-            }
-
-            .row3 {
-                max-width: 200px;
-                margin: 2rem;
-                box-shadow: 0 4px 8px 0 rgba(3, 126, 134, 0.4);
-                padding: 2rem;
-                border-radius: 1rem;
-
-                h2 {
-                    font-size: 2rem;
-                    color: $light-color;
-                    font-size: 3rem;
-                    font-weight: 900;
-                }
-
-                h4 {
-                    font-size: 1.7rem;
-                    color: rgb(42,155,212);
-                }
-            }
-
-            .row3:hover {
-                box-shadow: 0 4px 16px 0 rgba(189, 238, 241, 0.9);
-                transform: scale(1.1);
-                transition: 0.7s ease-in-out;
-            }
-
-            .row4 {
-                max-width: 200px;
-                margin: 2rem;
-                box-shadow: 0 4px 8px 0 rgba(3, 126, 134, 0.4);
-                padding: 2rem;
-                border-radius: 1rem;
-
-                h2 {
-                    font-size: 2rem;
-                    color: $light-color;
-                    font-size: 3rem;
-                    font-weight: 900;
-                }
-
-                h4 {
-                    font-size: 1.7rem;
-                    color: rgb(42,155,212);
-                }
-            }
-
-            .row4:hover {
-                box-shadow: 0 4px 16px 0 rgba(189, 238, 241, 0.9);
-                transition: 0.7s ease-in-out;
-                transform: scale(1.1);
-            }
-            
-        }
-
-    }
 
 
     .section2 {
