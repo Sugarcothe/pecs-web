@@ -9,7 +9,7 @@ const Home1 = () => {
                     <img src="assets/nice.gif" alt="mission img"/>
                 </div>
                 <div className='right'>
-                    <h2>Mission</h2>
+                    <h2>Our Mission</h2>
                     <p>To be the foremost provider of Industry-leading Technical and Business Skills training institute in Nigeria</p>
                 </div> 
             </div>

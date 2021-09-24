@@ -1,13 +1,29 @@
 @import '../../../global.scss';
 
 .Home1 {
+
     .row {
+        display: flex;
+        flex-direction: row;
+
         .left {
-
+            max-width: 400px;
+            
         }
-        
-        .right {
 
+        .right {
+            max-width: 350px;
+            margin-left: 20rem;
+            margin-top: 13rem;
+
+            h2 {
+                font-size: 3rem;
+                color: $main-light-color;
+            }
+
+            p {
+                
+            }
         }
     }
 }
