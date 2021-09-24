@@ -8,21 +8,23 @@
 
         .left {
             max-width: 400px;
+            margin-left: 4rem;
             
         }
 
         .right {
-            max-width: 350px;
-            margin-left: 20rem;
+            max-width: 300px;
+            margin-left: 24rem;
             margin-top: 13rem;
 
             h2 {
-                font-size: 3rem;
+                font-size: 2.50rem;
                 color: $main-light-color;
             }
 
             p {
-                
+                min-width: 400px;
+                font-size: 2rem;
             }
         }
     }
