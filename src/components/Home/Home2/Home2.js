@@ -20,6 +20,13 @@ const Home2 = () => {
                     </div>
                 </div>
             </div>
+            <div className='text'>
+                <p className='b-text'>
+                    Enjoy the Fun of Coding, It is for Everyone. 
+                    With our enticing Curriculum 
+                    Coding is made easy for kids!!!
+                </p>
+            </div>
         </div>
     )
 }

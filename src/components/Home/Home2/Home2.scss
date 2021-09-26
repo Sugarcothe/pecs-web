@@ -1,11 +1,15 @@
 @import '../../../global.scss';
 
 .Home2 {
+    justify-content: center;
+    align-content: center;
+
     .sections1 {
         display: flex;
-        background-color: $main-color;
         padding: 4rem;
         font-family: 'Gluten', cursive;
+        text-align: center;
+        align-self: center;
         justify-content: center;
         align-items: center;
         align-content: center;
@@ -16,6 +20,8 @@
         .rows {
             display: flex;
             flex-direction: row;
+            text-align: center;
+            align-self: center;
             justify-content: center;
             align-items: center;
             align-content: center;
@@ -29,10 +35,12 @@
                     box-shadow: 0 4px 8px 0 rgba(13, 229, 245, 0.4);
                     padding: 2rem;
                     border-radius: 1rem;
+                    background-color: $main-color;
                 }
 
                 p {
-                    max-width: 300px;
+                    max-width: 290px;
+                    text-align: center;
                 }
 
 
@@ -40,6 +48,7 @@
                     box-shadow: 0 4px 16px 0 rgba(189, 238, 241, 0.9);
                     transform: scale(1.1);
                     transition: 0.7s ease-in-out;
+                    padding: 10px;
                 }
             }
 
@@ -51,12 +60,20 @@
                     box-shadow: 0 4px 8px 0 rgba(13, 229, 245, 0.4);
                     padding: 2rem;
                     border-radius: 1rem;
+                    background-color: $main-color;
+                }
+
+                p {
+                    max-width: 290px;
+                    text-align: center;
                 }
 
                 img:hover {
                     box-shadow: 0 4px 16px 0 rgba(189, 238, 241, 0.9);
                     transform: scale(1.1);
                     transition: 0.7s ease-in-out;
+                    transition: 0.7s ease-out;
+                    padding: 10px;
                 }
             }
 
@@ -68,12 +85,19 @@
                     box-shadow: 0 4px 8px 0 rgba(13, 229, 245, 0.4);
                     padding: 2rem;
                     border-radius: 1rem;
+                    background-color: $main-color;
+                }
+
+                p {
+                    max-width: 290px;
+                    text-align: center;
                 }
 
                 img:hover {
                     box-shadow: 0 4px 16px 0 rgba(189, 238, 241, 0.9);
                     transform: scale(1.1);
                     transition: 0.7s ease-in-out;
+                    padding: 10px;
                 }
             }
 
@@ -82,4 +106,18 @@
         }
 
     }
+
+    .text {
+        display: flex;
+        margin-bottom: 3rem;
+        max-width: 500px;
+        justify-content: center;
+        text-align: center;
+        
+
+            .b-text {
+               text-align: center;
+            }
+    }
+
 }
