@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.scss';
 import Home1 from './Home1/Home1';
 import Home2 from './Home2/Home2';
-import HomeTestimonial from './Testimonial/HomeTestimonial';
+import Home3 from './Home3/Home3';
 
 const Home = () => {
     return (
@@ -27,13 +27,11 @@ const Home = () => {
                         alt='home img'
                     />
                 </div>
-           </div>
-        
-            <Home2/>
-            <Home1/>
-            <HomeTestimonial/>
-            
 
+           </div>
+            <Home3/>
+            <Home1/>
+            <Home2/>
 
        </div>
     )

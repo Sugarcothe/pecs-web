@@ -15,11 +15,17 @@ const Home1 = () => {
             </div>
 
             <div className='row2'>
-                <div className='left'>
-                    <h1>Fun Fact</h1>
-                </div>
-                <div className='right'>
-                    
+                <div className='section'>
+                    <div className='left'>
+                        <h1>Fun Fact</h1>
+                    </div>
+                    <div className='right'>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Qui dicta minus molestiae vel beatae natus eveniet ratione 
+                            temporibus aperiam harum alias officiis assumenda officia 
+                            quibusdam deleniti eos cupiditate dolore dolori
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

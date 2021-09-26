@@ -28,4 +28,39 @@
             }
         }
     }
+
+
+    .row2 {
+        background-color: $main-color;
+
+        .section {
+            margin: 4rem;
+            display: flex;
+            flex-direction: row;
+            align-content: space-between;
+            padding: 6rem;
+
+            .left {
+                max-width: 200px;
+                h1 {
+                    color: $main-light-color;
+                }
+            }
+
+            .right {
+                margin-left: 4rem;
+
+                p {
+                    max-width: 700px;
+                    color: white;
+                    font-size: 2rem;
+                    letter-spacing: 1px;
+                    line-height: 40px;
+                    word-spacing: 5px;
+                }
+            }
+
+        }
+    }
+    
 }
