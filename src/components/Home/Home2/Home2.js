@@ -6,24 +6,17 @@ const Home2 = () => {
         <div className='Home2'>
             <div className='sections1'>
                 <div className='rows'>
-                    <div className='row1'>
-                        <h1>OUR RECORDS SPEAK FOR US</h1>
-                    </div>
                     <div className='row2'>
-                        <h2>1K+</h2>
-                        <h4>Number of our pupils</h4>
+                        <img src='assets/save.gif' alt='kids'/>
+                        <p>We introduce your child to current and firstline technology</p>
                     </div>
                     <div className='row3'>
-                        <h2>150+</h2>
-                        <h4>Average Number of Pupils Yearly</h4>
+                        <img src='assets/buss.gif' alt='critical thinking'/>
+                        <p>Improve the critical critical thinking of kids</p>
                     </div>
                     <div className='row4'>
-                        <h2>100+</h2>
-                        <h4>Average number of learning materials</h4>
-                    </div>
-                    <div className='row4'>
-                        <h2>23</h2>
-                        <h4>Teachers spread accross the world</h4>
+                        <img src='assets/career.gif' alt='career'/>
+                        <p>Raising great technocrats for future technological world</p>
                     </div>
                 </div>
             </div>
