@@ -114,14 +114,13 @@
         font-size: 1.20rem;
         margin-bottom: 3rem;
         border-radius: 5px;
-        justify-content: center;
-        align-content: center;
-        text-align: center;
         transition: 0.7s;
+        margin-left: 37rem;
 
     }
 
     button:hover {
+        padding: 15px 45px;
         transform: scale(1.1);
     }
 }
