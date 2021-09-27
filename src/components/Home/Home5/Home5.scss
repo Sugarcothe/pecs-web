@@ -2,43 +2,49 @@
 
 .Home5 {
     padding: 4rem;
-    justify-content: center;
-    justify-self: center;
-    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
     .section {
-        justify-content: center;
-        justify-self: center;
-        align-content: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
 
         .header {
             margin-top: 4rem;
-            max-width: 700px;
             justify-content: center;
             justify-self: center;
             align-content: center;
             text-align: center;
-            margin-bottom: 4rem;
+            margin-bottom: 7rem;
 
             h3 {
                 font-size: 3rem;
                 font-weight: 500;
                 background-color: #fff;
                 color: $main-color;
+                justify-content: center;
+                justify-self: center;
+                align-content: center;
+                text-align: center;
 
             }
 
             p {
+                display: block;
+                margin-left: 15rem;
+                margin-right: 15rem;
 
             }
         }
 
         .classes {
             img {
-                justify-self: center;
-                align-content: center;
-                justify-items: center;
-                text-align: center;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
     }
