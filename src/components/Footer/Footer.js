@@ -22,7 +22,7 @@ const Footer = () => {
                     <p>FAQ</p>
                 </div>
                 <div className='row-4'>
-                    <p> &copy 2021 All rights reserved.</p>
+                    <p> ©2021 All rights reserved.</p>
                 </div>
             </div>
         </div>

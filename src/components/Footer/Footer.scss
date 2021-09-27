@@ -12,29 +12,45 @@
             margin-right: auto;
             margin-left: auto;
            img {
-            max-width: 100px;
+            max-width: 200px;
            }
         }
 
         .row-2 {
             display: flex;
             flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
 
             i {
                 background-color: $main-light-color;
-                padding: 10px;
-                margin: 4rem;
+                padding: 20px;
+                font-size: 1.30rem;
+                margin: 1rem;
                 color: white;
                 border-radius: 50%;
+                font-weight: bold;
+                transition: 0.9s;
+            }
+
+            i:hover {
+                background-color: $main-color;
+                color: $main-light-color;
+
             }
         }
 
         .row-3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 4rem 14rem;
             
         }
 
         .row-4 {
-            
+            text-align: center;
+            color: rgb(75, 73, 73);
         }
     }
 }

@@ -18,11 +18,6 @@ const Home = () => {
                     <p>
                     We make coding fun for kids aged 4-18 years. They learn to build apps, websites and other projects with a personal tutor and our standard curriculum.
                     </p>
-                
-                    <div className='buttons'>
-                        <button>Register</button>
-                        <button>Join</button>
-                    </div>
                 </div>
 
                 <div className='right-column'> 
