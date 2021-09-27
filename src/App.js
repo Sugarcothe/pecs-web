@@ -24,7 +24,6 @@ function App() {
           <Route path='/Classes' component={Classes}/>
           <Route path='/Signin' component={Signin}/>
           <Route path='/Signup' component={Signup}/>
-
         </Switch>
       </div>
     </Router>

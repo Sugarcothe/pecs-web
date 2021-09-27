@@ -9,7 +9,7 @@ class Youtube extends Component {
                 <div className='section'>
                     <div className='left'>
                         <h4>
-                            Watch an Introductory Video Now!!!
+                        Introductory Watch an Introductory Video Now!!!
                         </h4>
                     </div>
                     <div className='right'>

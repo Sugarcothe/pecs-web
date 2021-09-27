@@ -1,14 +1,39 @@
-.footer {
-    .sections {
-        .first-row {
+@import '../../global.scss';
 
+.footer {
+    padding: 4rem;
+
+    .col {
+        display: flex;
+        flex-direction: column;
+
+        .logo {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+           img {
+            max-width: 100px;
+           }
         }
 
-        .second-row {
+        .row-2 {
+            display: flex;
+            flex-direction: row;
+
+            i {
+                background-color: $main-light-color;
+                padding: 10px;
+                margin: 4rem;
+                color: white;
+                border-radius: 50%;
+            }
+        }
+
+        .row-3 {
             
         }
 
-        .column {
+        .row-4 {
             
         }
     }
