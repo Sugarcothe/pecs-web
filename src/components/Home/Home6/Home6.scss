@@ -1,0 +1,28 @@
+@import '../../../global.scss';
+
+.Home6 {
+    background-color: $main-color;
+    padding: 7rem;
+
+    .section {
+        background-color: $main-color;
+        display: flex;
+        flex-direction: row;
+
+            .left {
+                max-width: 300px;
+                margin-right: 10rem;
+                h4 {
+                    font-size: 3rem;
+                    font-weight: 500;
+                    color: white;
+                }
+
+            }
+
+            .right {
+                
+            }
+    }
+}
+
