@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Home5.scss'
 
 const Home5 = () => {
     return (
@@ -16,7 +17,7 @@ const Home5 = () => {
                     <img src='assets/classes.png' alt='classes'/>
                 </div>
 
-                
+
 
             </div>
         </div>
