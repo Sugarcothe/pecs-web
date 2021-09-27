@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Home4.scss'
 
 const Home4 = () => {
     return (
         <div className='Home4'>
             <div className='section'>
                 <div className='header'>
-                    <h3>How it works</h3>
+                    <h3>HOW IT WORKS</h3>
                 </div>
                 <div className='row'>
                     <div className='row-1'>
@@ -13,11 +14,11 @@ const Home4 = () => {
                             <i class="fab fa-cloudversify"></i>
                             <p>Personalized live-tutoring experience delivered by our expert Tutors</p>
                         </div>
-                        <div className='col-1'>
+                        <div className='col-2'>
                             <i class="far fa-play-circle"></i>
                             <p>Personalized live-tutoring experience delivered by our expert Tutors</p>
                         </div>
-                        <div className='col-1'>
+                        <div className='col-3'>
                         <i class="fas fa-trophy"></i>
                             <p>Personalized live-tutoring experience delivered by our expert Tutors</p>
                         </div>

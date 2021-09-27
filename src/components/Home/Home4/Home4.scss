@@ -1,0 +1,39 @@
+@import '../../../global.scss';
+
+.Home4 {
+    background-color: $main-color;
+
+    .section {
+        padding: 4rem;
+
+        .header {
+            justify-content: center;
+            text-align: center;
+            h3 {
+                font-size: 3rem;
+                font-weight: 300;
+                color: $main-light-color;
+            }
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+
+            .row-1{
+
+                .col-1 {
+
+                }
+
+                .col-1 {
+                    
+                }
+
+                .col-1 {
+                    
+                }
+            }
+        }
+    }
+}
