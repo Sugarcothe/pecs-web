@@ -3,12 +3,13 @@
 .home {
     color: rgb(28, 25, 1);
     font-family: 'Urbanist', sans-serif;
-    // background-color: $light-color;
     height: 100vh;
+
         h1 {
             font-size: 3rem;
-            font-weight: 700;
+            font-weight: 500;
             color: $dark-color;
+            line-height: 3rem;
         }
         h3 {
             font-size: 1rem;
@@ -16,10 +17,13 @@
             color: $light-color;
             border-radius: 5px;
             background-color: $main-color;
+            line-height: 3rem;
         }
         p {
             font-size: 1.50rem;
             margin-top: 1rem;
+            line-height: 2rem;
+            margin-top: 3rem;
         }
     
     .sections {
