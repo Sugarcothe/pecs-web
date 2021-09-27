@@ -16,11 +16,11 @@ const Home4 = () => {
                         </div>
                         <div className='col-2'>
                             <i class="far fa-play-circle"></i>
-                            <p>Personalized live-tutoring experience delivered by our expert Tutors</p>
+                            <p>Pre Recorded Videos by our experienced Tutors</p>
                         </div>
                         <div className='col-3'>
                         <i class="fas fa-trophy"></i>
-                            <p>Personalized live-tutoring experience delivered by our expert Tutors</p>
+                            <p>Get a globally recognized Certificate of Completion</p>
                         </div>
                         
                     </div>
