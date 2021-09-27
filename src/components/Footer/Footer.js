@@ -4,14 +4,14 @@ import './Footer.scss'
 const Footer = () => {
     return (
         <div className='footer'>
-            <div className='sections'>
-                <div className='first-row'>
+            <div className='col'>
+                <div className='row-1'>
 
                 </div>
-                <div className='first-row'>
+                <div className='row-2'>
 
                 </div>
-                <div className='column'>
+                <div className='row-3'>
 
                 </div>
             </div>
