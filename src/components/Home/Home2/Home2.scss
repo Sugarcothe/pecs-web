@@ -1,8 +1,7 @@
 @import '../../../global.scss';
 
 .Home2 {
-    justify-content: center;
-    align-content: center;
+
 
     .sections1 {
         display: flex;
@@ -71,8 +70,7 @@
                 img:hover {
                     box-shadow: 0 4px 16px 0 rgba(189, 238, 241, 0.9);
                     transform: scale(1.1);
-                    transition: 0.7s ease-in-out;
-                    transition: 0.7s ease-out;
+                    transition: 0.7s;
                     padding: 10px;
                 }
             }
@@ -105,19 +103,25 @@
             
         }
 
-    }
-
-    .text {
-        display: flex;
-        margin-bottom: 3rem;
-        max-width: 500px;
-        justify-content: center;
-        text-align: center;
         
-
-            .b-text {
-               text-align: center;
-            }
     }
 
+    button {
+        padding: 15px;
+        background-color: $main-light-color;
+        font-weight: 500;
+        color: white;
+        font-size: 1.20rem;
+        margin-bottom: 3rem;
+        border-radius: 5px;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        transition: 0.7s;
+
+    }
+
+    button:hover {
+        transform: scale(1.1);
+    }
 }
