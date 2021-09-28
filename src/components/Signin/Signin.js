@@ -11,6 +11,7 @@ const Signin = () => {
                 </div>
                 <div className='right'>
                 <form>
+                    <h1>Sign in</h1>
                     <div class="form-group">
                         <label 
                             for="exampleInputEmail1">
@@ -41,11 +42,16 @@ const Signin = () => {
                             placeholder="Password"
                         />
                     </div>
-                    <button 
-                        type="submit" 
-                        class="btn btn-primary">
-                            Submit
+                        <button 
+                            type="submit" 
+                            class="form-control btn btn-primary">
+                                Submit
                         </button>
+                        <small 
+                            id="emailHelp" 
+                            class="form-text text-muted">
+                                Dont have an account Signup
+                        </small>
                     </form>
                 </div>
             </div>
