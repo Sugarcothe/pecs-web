@@ -20,7 +20,7 @@ const Navbar = () => {
                    style={{transform: open ? "translateX(0px)" : ""}} 
                 >
                     <li>
-                        <Link to='/Classes'>Join Class</Link>
+                        <Link to='/Signup'>Join Class</Link>
                     </li>
                     <li>
                         <Link to='/Signin'>Signin</Link>

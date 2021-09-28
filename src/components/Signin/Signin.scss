@@ -1,0 +1,23 @@
+@import '../../global.scss';
+
+.signup {
+    margin: 2rem 4rem;
+    .section {
+        display: flex;
+        flex-direction: row;
+
+        .left {
+            img {
+                max-width: 400px;
+
+            }
+        }
+
+        .right {
+
+            form {
+                
+            }
+        }
+    }
+}
