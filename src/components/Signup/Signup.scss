@@ -1,25 +1,24 @@
 @import '../../global.scss';
 
 .signup {
-    margin: 0rem 10rem;
-    font-family: 'Roboto', sans-serif;
+    margin: 2rem 10rem;
 
     .section {
         display: flex;
         flex-direction: row;
 
         .left {
-            img {
-                max-width: 500px;
 
+
+            img {
+                max-width: 400px;
             }
         }
 
         .right {
-            margin-left: 10rem;
+            margin-left: 9rem;
 
             form {
-                font-family: 'Roboto', sans-serif;
 
                 h1 {
                     font-size: 4rem;
@@ -27,33 +26,26 @@
                     font-weight: 500;
                     font-family: 'Roboto', sans-serif;
                     color: $main-color;
-                }
-
-                .form-group {
-                    font-family: 'Roboto', sans-serif;
-
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        margin-top: 1.62rem;
-                    }
-
-                    input {
-                        font-family: 'Roboto', sans-serif;
-                        
-                    }
-
-                    small {
-                        font-family: 'Roboto', sans-serif;
-                    }
-                }
-
-                button {
-                    font-family: 'Roboto', sans-serif;
-                    background-color: $main-color;
-                    margin-top: 2rem;
-                }
+                }   
                 
+                .form-row {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                   
+                    .form-group {
+                       
+                        input {
+                           
+                        }
+                    }
+
+                   
+                }
             }
+
+           
         }
+
     }
 }

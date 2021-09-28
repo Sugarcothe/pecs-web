@@ -4,7 +4,7 @@ import './Signin.scss'
 
 const Signin = () => {
     return (
-        <div className='signup'>
+        <div className='signin'>
             <div className='section'>
                 <div className='left'>
                     <img src='assets/aero.png' alt='signin png'/>
