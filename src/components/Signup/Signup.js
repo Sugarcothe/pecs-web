@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Signup.scss';
 
 
@@ -109,11 +110,13 @@ const Signin = () => {
                         </label>
                         </div>
                     </div>
-                        <button 
-                            type="submit" 
-                            class="btn btn-primary">
-                            Sign in
-                        </button>
+                        <Link to='/Dashboard'>
+                            <button 
+                                type="submit" 
+                                class="btn btn-primary">
+                                Sign in
+                            </button>
+                        </Link>
                     </form>
                 </div>
             </div>

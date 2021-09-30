@@ -11,6 +11,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/Classes' component={Classes}/>
           <Route path='/Signin' component={Signin}/>
           <Route path='/Signup' component={Signup}/>
+          <Route path='/Dashboard' component={Dashboard}/>
         </Switch>
       </div>
     </Router>
