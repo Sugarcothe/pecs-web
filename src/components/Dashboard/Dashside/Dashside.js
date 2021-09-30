@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Dashside = () => {
     return (
@@ -7,7 +7,7 @@ const Dashside = () => {
                 <div className='col-1'>
                     <img src="assets/nhlogo.png" alt="logo"/>
                 </div>
-                
+
                 <div className='col-1'>
                     <div className='icono'>
                         <i class="fas fa-home"></i>
@@ -32,7 +32,7 @@ const Dashside = () => {
                 </div>
 
                 <div className='col-1'>
-
+                    <img src='assets/refer.png' alt='refer a friend'/>
                 </div>
             </div>
         </div>
