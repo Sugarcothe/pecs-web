@@ -1,0 +1,24 @@
+@import '../../../global.scss';
+
+.dashside {
+    background-color: $main-color;
+
+    .section {
+
+        .col-1 {
+            
+            .icono {
+                display: flex;
+                flex-direction: row;
+                color: $main-light-color;
+                justify-content: space-between;
+                margin: 1.6rem;
+
+                i {
+                    margin-right: 0.61rem;
+                }
+
+            }
+        }
+    }
+}

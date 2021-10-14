@@ -1,13 +1,10 @@
 import React from 'react';
+import '../Dashside/Dashside.scss'
 
 const Dashside = () => {
     return (
         <div className='dashside'>
             <div className='section'>
-                <div className='col-1'>
-                    <img src="assets/nhlogo.png" alt="logo"/>
-                </div>
-
                 <div className='col-1'>
                     <div className='icono'>
                         <i class="fas fa-home"></i>
