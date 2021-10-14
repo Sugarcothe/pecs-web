@@ -14,7 +14,10 @@ const Board = () => {
 
                 <div className='col-1'>
                     <div className='card'>
-                        <h4>Beginners</h4>
+                        <div className='header'>
+                            <h4>Beginners</h4>
+                            <i class="fas fa-play-circle"></i>  
+                        </div>
                         <img src='assets/R.gif' alt=''/>
                     </div>
                 </div>

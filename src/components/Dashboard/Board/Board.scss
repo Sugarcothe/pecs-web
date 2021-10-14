@@ -1,10 +1,37 @@
 @import '../../../global.scss';
 
 .board {
+    margin: 3rem;
 
     .row {
-        
+        display: flex;
+        flex-direction: column;
+
         .col-1 {
+            margin: 2rem;
+
+            .card {
+                min-width: 700px;
+                background-color: $main-light-color;
+                align-items: center;
+                border: 2rem;
+
+                .header {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    i {
+                        color: $main-color;
+                    }
+                }
+
+                img {
+                    max-width: 400px;
+                    margin: 2rem;
+                }
+
+            }
 
         }
     }
