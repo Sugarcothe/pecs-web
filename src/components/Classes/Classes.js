@@ -1,39 +1,26 @@
-import React from 'react'
-import './Classes.scss'
+import React from 'react';
+import YouTube from 'react-youtube';
 
-const Classes = () => {
-    return (
-        <div className='classes'>
-            <div className='section2'>
-                <div className='house'>
-                    <div className='head1'>
-                        <h2>Popular courses</h2>
-                        <button className='btn1'>
-                            Show All
-                        </button>
-                    </div>
-                    <div className='body1'>
-                        <div className='row1'>
-                            <i class="fas fa-robot"></i>
-                            <h4>Robotics</h4>
-                        </div>
-                        <div className='row2'>
-                            <i class="fas fa-robot"></i>
-                            <h4>Robotics</h4>
-                        </div>
-                        <div className='row3'>
-                            <i class="fas fa-robot"></i>
-                            <h4>Robotics</h4>
-                        </div>
-                        <div className='row4'>
-                            <i class="fas fa-robot"></i>
-                            <h4>Robotics</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
+class Classes extends React.Component {
+
+   
+  render() {
+    const opts = {
+      height: '390',
+      width: '640',
+      playerVars: {
+        // https://developers.google.com/youtube/player_parameters
+        autoplay: 1,
+      },
+    };
+
+    return <YouTube videoId="2g811Eo7K8U" opts={opts} onReady={this._onReady} />;
+  }
+
+  _onReady(event) {
+    // access to player in all event handlers via event.target
+    event.target.pauseVideo();
+  }
 }
 
 export default Classes

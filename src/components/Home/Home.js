@@ -28,9 +28,10 @@ const Home = () => {
                 </div>
 
            </div>
-            <Home3/>
+            {/* <Home3/> */}
+             <Home2/>
             <Home1/>
-            <Home2/>
+           
             {/* <Home4/> */}
             <Home5/>
             <Home6/>

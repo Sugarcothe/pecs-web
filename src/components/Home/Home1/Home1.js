@@ -13,7 +13,7 @@ const Home1 = () => {
                     <p>To be the foremost provider of Industry-leading Technical and Business Skills training institute in Nigeria</p>
                 </div> 
             </div>
-
+            
             <div className='row2'>
                 <div className='section'>
                     <div className='left'>
