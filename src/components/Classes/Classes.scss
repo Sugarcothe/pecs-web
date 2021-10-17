@@ -1,10 +1,19 @@
 @import '../../global.scss';
 
 .classes {
-    background-color: $main-color;
+    background-color: $light-color;
 
     .section {
         display: flex;
         flex-direction: row;
+        margin: 4rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        .right {
+            margin: 1rem;
+            border-radius: 1s solid $main-color;
+            border-radius: 5px;
+        }
     }
 }
