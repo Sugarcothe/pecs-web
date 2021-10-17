@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Board.scss';
 
 const Board = () => {
@@ -7,7 +8,12 @@ const Board = () => {
             <div className='row'>
                 <div className='col-1'>
                     <div className='card'>
-                        <img src='assets/beginners.gif' alt=''/>
+                        <Link to='/Classes'>
+                        <img 
+                        src='assets/beginners.gif' 
+                        alt=''
+                        />
+                        </Link>
                     </div>
                 </div>
 

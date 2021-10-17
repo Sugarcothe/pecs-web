@@ -1,5 +1,10 @@
 @import '../../global.scss';
 
 .classes {
-    
+    background-color: $main-color;
+
+    .section {
+        display: flex;
+        flex-direction: row;
+    }
 }
