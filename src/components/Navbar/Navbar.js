@@ -25,7 +25,10 @@ const Navbar = () => {
                         <Link to='/Signup'>Join Class</Link>
                     </li>
                     <li>
-                        <Link to='/Signin'>Signin</Link>
+                        <Link to='/Signin'>Login</Link>
+                    </li>
+                    <li>
+                        <Link to='/Signin'>Logout</Link>
                     </li>
                 </ul>
                 <i 
